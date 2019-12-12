@@ -1,4 +1,4 @@
-My name Magomed and this is my visit card.
+This is my visit card.
 
 # Magomed Shaymanov
 
