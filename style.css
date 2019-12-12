@@ -33,20 +33,20 @@
   color: rgb(255, 255, 255);
 }
 
-.wrapper h1 {
+.text h1 {
   font-family: "Saira", sans-serif;
   font-weight: 500;
   font-size: 26pt;
   margin: 0;
 }
 
-.wrapper span {
+.text span {
   font-family: "Saira", sans-serif;
   font-weight: 500;
   font-size: 12pt;
 }
 
-.wrapper p {
+.text p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12pt;
@@ -81,11 +81,11 @@
 }
 
 @media screen and (max-width: 576px) {
-  .wrapper {
+  .text {
     flex-direction: column-reverse;
   }
 
-  .wrapper p {
+  .text p {
     width: auto;
   }
 
