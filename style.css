@@ -81,7 +81,7 @@
 }
 
 @media screen and (max-width: 576px) {
-  .text {
+  .wrapper {
     flex-direction: column-reverse;
   }
 
