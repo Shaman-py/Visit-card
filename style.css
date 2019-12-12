@@ -1,101 +1,94 @@
 .bg {
-  background-color: rgb(86, 169, 202);
-  background-image: url(./image/bg.jpg);
+  background-color: rgb(41, 141, 255);
+  background-image: url("./image/bg.jpg");
+  color: white;
   background-attachment: fixed;
-  background-repeat: no-repeat;
   background-position: 0 center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
-.container {
-  margin-top: 150px;
+.conteiner {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  margin: 120px 0;
 }
 
-.btn {
-  border: none;
-  font-weight: 700;
-  padding: 8px 33px 8px 33px;
-  color: #3c77d0;
-  margin-top: 20px;
-  cursor: pointer;
-  font-family: "Saira", sans-serif;
-  font-weight: 700;
-  font-size: 12pt;
-  border-radius: 10px;
-  background-color: rgb(255, 255, 255);
+.wrapper p {
+  width: 350px;
 }
 
-.wrapper {
-  display: flex;
-  color: rgb(255, 255, 255);
+.avatar {
+  width: 130px;
+  height: 130px;
+  margin-left: 60px;
+  border-radius: 100px;
 }
 
-.text h1 {
+.wrapper h1 {
   font-family: "Saira", sans-serif;
   font-weight: 500;
-  font-size: 26pt;
+  font-size: 24pt;
   margin: 0;
 }
 
-.text span {
+.wrapper span {
   font-family: "Saira", sans-serif;
   font-weight: 500;
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
-.text p {
+.wrapper p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12pt;
-  margin-top: 4px;
+}
+
+.btn {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: white;
+  color: #3c77d0;
+  font-family: "Saira", sans-serif;
+  font-weight: 700;
+  font-size: 12pt;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 33px 10px 33px;
 }
 
 .icons {
-  margin-top: 16.29px;
   display: flex;
   align-items: center;
+  margin-top: 10px;
 }
-.text {
-  width: 500px;
-}
+
 .icons img {
-  width: 30px;
-  margin: 0px 5px 0px 0px;
+  max-width: 100%;
+  height: auto;
+  width: 25px;
 }
 
 .icons div {
   display: flex;
   align-items: center;
-  margin-top: 10px;
   height: 40px;
   width: 40px;
 }
 
-.me {
-  width: 100px !important;
-  height: 100px !important;
-  border-radius: 100px;
-}
-
 @media screen and (max-width: 600px) {
-  .wrapper {
-    flex-direction: column-reverse;
-  }
-
   .wrapper p {
-    width: 100%;
+    width: auto;
   }
 
-  .container {
+  .conteiner {
     margin-top: 50px;
     flex-direction: column-reverse;
     align-items: center;
   }
 
-  .me {
+  .avatar {
     margin: 0;
     margin-bottom: 40px;
   }
