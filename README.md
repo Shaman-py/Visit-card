@@ -1,3 +1,3 @@
 # Shaymanov Magomed
 
-## magomed.shaymanov201@yande.ru
+## magomed.shaymanov201@yandex.ru
