@@ -60,7 +60,6 @@
 
 .icons {
   display: flex;
-  align-items: center;
   margin-top: 10px;
 }
 
@@ -77,7 +76,7 @@
   width: 40px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   .wrapper p {
     width: auto;
   }
